@@ -30,7 +30,8 @@
 // 
 // 7- Navegacion en la prueba:
 // se navega entre los elementos de html, con el uso de los tags, id, class.
-// Se coloca primero el padre y luego se ingresa al hijo con el uso de >
+// Se coloca primero el padre y luego se ingresa al hijo con el uso de >.
+// Son los elementos del DOM y van de manera gerarquica.
 // 
 // 8- Código de la prueba:
 // Todo el codigo de navegación de elementos, urls, etc. Van dentro de los parentesis de los metodos.
@@ -38,7 +39,7 @@
 // cy.metodo() ---> Hay diversos metodos para realizar acciones en la pag. x ej: get(obtiene los elementos por id,class o tag), 
 // visit(link al que va a realizar el test), url(link al que se redirije), viewport(tamaño de la patalla).
 // cy.metodo().metodo() ---> los metodos pueden ir seguidos. x ej : .should(muestra el contenido, 'https://), 
-// .click(hace click sobre los elementos seleccionados), .type(le indica el tipo de dato a insertar en un input),
+// .click(hace click sobre los elementos seleccionados), .type(le indica el tipo de dato a insertar en un input), .first(selecciona el primer elemento en una lista de elementos)
 // 
 // 
 // 
