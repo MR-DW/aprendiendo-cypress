@@ -40,9 +40,17 @@
 // visit(link al que va a realizar el test), url(link al que se redirije), viewport(tamaño de la patalla).
 // cy.metodo().metodo() ---> los metodos pueden ir seguidos. x ej : .should(muestra el contenido, 'https://), 
 // .click(hace click sobre los elementos seleccionados), .type(le indica el tipo de dato a insertar en un input), .first(selecciona el primer elemento en una lista de elementos)
-// 
-// 
-// 
+// .clear(para borrar), eq(index) ---> permite ubicar un objeto por su posicion index,
+
+// 9- Codigo de programacion de la prueba:
+// Primero se coloca un describe que va a contener todos los casos de pruebas, cada it va a ser un caso de prueba. Dentro del it irá el codigo que realiza la prueba automatizada.
+
+// describe('nombre test', () => {
+//      it('nombre de caso de prueba', =()=>{
+//          cy.visit('https:/');
+//          
+//      })
+// })
 // 
 // 
 // 
