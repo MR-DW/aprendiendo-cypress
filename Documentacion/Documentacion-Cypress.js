@@ -36,7 +36,7 @@
 // 8- Código de la prueba:
 // Todo el codigo de navegación de elementos, urls, etc. Van dentro de los parentesis de los metodos.
 // cy. ---> Indica que es un comando de cypress.
-// cy.metodo() ---> Hay diversos metodos para realizar acciones en la pag. x ej: get(obtiene los elementos por id,class o tag), 
+// cy.metodo() ---> Hay diversos metodos para realizar acciones en la pag. x ej: get(obtiene los elementos por id,class o tag, tambien por atributos los mismos deben estar completos y entre corchetes por ejemplo [href="https//..."] o [name=nombre]), 
 // visit(link al que va a realizar el test), url(link al que se redirije), viewport(tamaño de la patalla).
 // cy.metodo().metodo() ---> los metodos pueden ir seguidos. x ej : .should(muestra el contenido, 'https://), 
 // .click(hace click sobre los elementos seleccionados), .type(le indica el tipo de dato a insertar en un input), .first(selecciona el primer elemento en una lista de elementos)
