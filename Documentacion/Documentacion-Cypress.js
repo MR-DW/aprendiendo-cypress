@@ -53,7 +53,7 @@
 // })
 // 
 // 
-// 
+// npx cypress run --spec "cypress/e2e/CPrueba35.cy.js"  ---> Comando para correr la prueba desde la terminal.
 // 
 // 
 // 
